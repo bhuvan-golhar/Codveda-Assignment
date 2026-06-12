@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Users App</title>
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <main class="container">
+        <h1>User Info App</h1>
+
+        <form id="userForm">
+            <input
+                id="name"
+                type="text"
+                placeholder="Enter name"
+                required
+            />
+
+            <input
+                id="email"
+                type="email"
+                placeholder="Enter email"
+                required
+            />
+
+            <button type="submit">Save User</button>
+        </form>
+
+        <h2>Users List</h2>
+
+        <ul id="usersList"></ul>
+    </main>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
